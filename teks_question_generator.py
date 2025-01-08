@@ -84,7 +84,7 @@ def display_output(teks_description, questions, solutions):
 # Streamlit app
 st.title("TEKS-Aligned Question Generator")
 
-api_key = st.text_input("Enter your OpenAI API Key:", type="password")
+api_key = st.text_input("Enter your OpenAI API Key:", placeholder="OpenAI API Key",type="password")
 
 st.write("""
 This application generates educational questions aligned with the Texas Essential Knowledge and Skills (TEKS) standards.
